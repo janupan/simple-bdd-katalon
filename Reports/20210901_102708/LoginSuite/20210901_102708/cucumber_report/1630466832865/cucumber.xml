@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.423212">
+<testcase classname="Login feature" name="As a user, I should be able to login with valid credentials" time="26.423212">
+<system-out><![CDATA[Given User navigates to login page..........................................passed
+When User enter the valid telkom_dbs and MG0ylDrJ4ns=.......................passed
+And Click on the login button...............................................passed
+Then User is navigated to homapage..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

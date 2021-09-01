@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "eb8db682-5f54-465d-a92f-d38e1cd79bba",
+        "line": 11,
+        "name": "As a user, I should be able to login with valid credentials",
+        "description": "",
+        "id": "login-feature;as-a-user--i-should-be-able-to-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7773098287,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "LoginSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "6dbd546f-8fc4-4e9c-aebf-164b61183213"
+          },
+          {
+            "result": {
+              "duration": 1439205273,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the valid telkom_dbs and MG0ylDrJ4ns\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "telkom_dbs",
+                  "offset": 21
+                },
+                {
+                  "val": "MG0ylDrJ4ns\u003d",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.enterTheValidCred(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "9b3410a2-eefd-4662-98d6-237166fcbd65"
+          },
+          {
+            "result": {
+              "duration": 4525507283,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the login button",
+            "match": {
+              "location": "LoginSteps.clickLoginButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "91e24832-acb8-48ad-9eba-1b1de65a0cc2"
+          },
+          {
+            "result": {
+              "duration": 12628023122,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is navigated to homapage",
+            "match": {
+              "location": "LoginSteps.verifyHomePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "c7880d66-f0b9-4b42-ba6c-d153294f9238"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/janupan/git/simple-bdd-katalon/Include/features/Login.feature",
+    "tags": []
+  }
+]

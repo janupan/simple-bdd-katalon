@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginSuite" time="28.317" tests="1" failures="0" errors="0">
+   <testsuite name="LoginSuite" tests="1" failures="0" errors="0" time="28.317" skipped="0" timestamp="2021-09-01 10:27:12" hostname="bciasia - 192.168.100.13" id="Test Suites/LoginSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/janupan/git/simple-bdd-katalon/Reports/20210901_102708/LoginSuite/20210901_102708"/>
+         <property name="logFiles" value="/Users/janupan/git/simple-bdd-katalon/Reports/20210901_102708/LoginSuite/20210901_102708/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bciasia - 192.168.100.13"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 92.0.4515.159"/>
+         <property name="hostAddress" value="192.168.100.13"/>
+         <property name="sessionId" value="7e96ed4e7c1eb9dc6d52f6cafd564664"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/RunFeatureFile" time="27.375" classname="Test Cases/RunFeatureFile" status="PASSED">
+         <system-out><![CDATA[2021-09-01 10:27:12 - [TEST_CASE][PASSED] - Test Cases/RunFeatureFile: Test Cases/RunFeatureFile
+
+2021-09-01 10:27:12 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login.feature"): Feature file: 'Include/features/Login.feature' was passed
+
+2021-09-01 10:27:12 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: '/Users/janupan/git/simple-bdd-katalon/Reports/20210901_102708/LoginSuite/20210901_102708/cucumber_report/1630466832865'...
+
+2021-09-01 10:27:13 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As a user, I should be able to login with valid credentials: SCENARIO As a user, I should be able to login with valid credentials
+
+2021-09-01 10:27:13 - [TEST_STEP][PASSED] - User navigates to login page: User navigates to login page
+
+2021-09-01 10:27:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-01 10:27:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-01 10:27:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-01 10:27:21 - [MESSAGE][PASSED] - Navigate to 'https://sso.bcicentral.com/login?app=analytix-dev' successfully
+
+2021-09-01 10:27:21 - [MESSAGE][PASSED] - User navigates to login page
+
+2021-09-01 10:27:21 - [TEST_STEP][PASSED] - User enter the valid telkom_dbs and MG0ylDrJ4ns=: User enter the valid telkom_dbs and MG0ylDrJ4ns=
+
+2021-09-01 10:27:22 - [MESSAGE][PASSED] - Text 'telkom_dbs' is set on object 'Object Repository/Page_Login to LeadManager/input_Welcome back_username'
+
+2021-09-01 10:27:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login to LeadManager/input_Welcome back_password'
+
+2021-09-01 10:27:22 - [MESSAGE][PASSED] - User enter the valid telkom_dbs and MG0ylDrJ4ns=
+
+2021-09-01 10:27:22 - [TEST_STEP][PASSED] - Click on the login button: Click on the login button
+
+2021-09-01 10:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to LeadManager/button_Login' is clicked on
+
+2021-09-01 10:27:27 - [MESSAGE][PASSED] - Click on the login button
+
+2021-09-01 10:27:27 - [TEST_STEP][PASSED] - User is navigated to homapage: User is navigated to homapage
+
+2021-09-01 10:27:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Analytix - Dashboards/div_All Bookmarks' is present
+
+2021-09-01 10:27:39 - [MESSAGE][PASSED] - Browser is closed
+
+2021-09-01 10:27:39 - [MESSAGE][PASSED] - User is navigated to homapage
+
+2021-09-01 10:27:39 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-01 10:27:12 - [TEST_SUITE][PASSED] - LoginSuite: Test Cases/RunFeatureFile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
